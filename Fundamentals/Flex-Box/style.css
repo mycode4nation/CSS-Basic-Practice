@@ -1,0 +1,23 @@
+.container {
+    width: 600px;
+    border: 5px solid #111111;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+/*  If not flex you can use this code for alternate*/
+/* .container::after{
+    content: '';
+    display: block;
+    clear: both;
+} */
+.container div{
+    height: 150px;
+    width: 100px;
+    background-color: rgb(12, 23, 170);
+    
+  
+}
