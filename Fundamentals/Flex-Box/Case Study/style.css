@@ -1,0 +1,166 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+    background-color: #ddd;
+    padding-bottom: 1000px;
+}
+
+/*Latihan satu */
+.container-satu{
+    background: #fff;
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container-satu .konten-utama{
+    flex: 2;
+    order: 2;
+}
+
+.container-satu .sidebar-1{
+    flex: 1;
+    order: 1;
+}
+
+.container-satu .sidebar-2{
+    flex: 1;
+    order: 3;
+}
+
+
+/*Latihan dua */
+
+.container-dua{
+    margin: 50px auto;
+    max-width: 800px;
+    background-color: lawngreen;
+    
+
+    
+    
+}
+
+
+.layanan{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+
+.layanan.satu{
+    background-color: royalblue;
+}
+
+.layanan.dua{
+    background-color: seagreen;
+}
+
+.layanan.tiga{
+    background-color: sienna;
+}
+
+.container-tiga {
+    max-width: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.thumbnail {
+    width: 50%;
+}
+.thumbnail img {
+    width: 100%;
+}
+
+
+.container-empat {
+    margin: 50px auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+.card {
+    border: 1px solid  #333;
+    width: 30%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #eee;
+    flex: 1;
+    
+}
+
+.card .header {
+    background: rgba(170, 170, 170, 0.89);
+    height: 100px;
+    margin: 0;
+}
+.card .content {
+  
+    text-align: center;
+    margin: 20px;
+}
+
+.card.besar {
+    transform: scale(1.1)
+}
+
+
+.container-lima{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border: 1px solid #333;
+    display: flex;
+
+
+}
+
+
+
+.kotak{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #333;
+    background-color: aqua;
+    display: flex;
+   margin: auto;
+ 
+   }
+
+   .kotak span{
+       margin: auto;
+   }
+
+
+@media (min-width:600px){
+  .container-dua{ 
+  display: flex;
+  justify-content: space-between;
+  }
+  .layanan{
+    width: 30%;
+  }
+
+  .container-tiga{
+      max-width:800px ;
+  }
+  
+  .thumbnail{
+    width: 30%;
+  }
+}

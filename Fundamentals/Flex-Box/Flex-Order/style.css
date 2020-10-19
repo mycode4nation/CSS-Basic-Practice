@@ -5,19 +5,15 @@
     padding: 5px;
     box-sizing: border-box;
     display: flex;
-
 }
 
-/*  If not flex you can use this code for alternate*/
-/* .container::after{
-    content: '';
-    display: block;
-    clear: both;
-} */
 .container div{
     height: 150px;
     width: 100px;
     background-color: rgb(12, 23, 170);
-    
-  
+    margin: 5px;
 }
+.satu {order:3 ;}
+.dua {order:4 ;}
+.tiga {order:5 ;}
+.empat {order:1 ;}
